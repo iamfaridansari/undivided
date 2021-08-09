@@ -1,13 +1,188 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#myNavbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000000000;
+}
+.brand {
+  width: 120px;
+}
+.brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Calculator */
+table {
+  width: 100%;
+}
+td {
+  width: 25%;
+}
+td button {
+  width: 100%;
+}
+
+/* Expense */
+.history {
+  width: 100%;
+  height: 295px;
+  overflow-y: auto;
+}
+.fluid {
+  min-height: 90vh;
+}
+.brand {
+  text-decoration: none;
+  color: #fff;
+}
+.crypto-img {
+  width: 75px;
+}
+.crypto-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+#music-image-div {
+  width: 75%;
+}
+#music-image-div img {
+  width: 100%;
+  border-radius: 50%;
+}
+.music-image {
+  animation: music-image-animate 60s infinite;
+}
+@keyframes music-image-animate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.big-container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+#badgeColor {
+  background: #198754;
+  /* background: linear-gradient(#009688, #006988); */
+}
+
+@media screen and (max-width: 768px) {
+  .part2 {
+    margin-top: 5px;
+  }
+
+  .crypto-rank,
+  .crypto-img,
+  .crypto-percent {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .todo-container {
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .crypto-font {
+    font-size: 80%;
+  }
+}
+
+#shoppingHeader {
+  position: sticky;
+  top: 76px;
+  z-index: 10;
+}
+#shopping-img {
+  position: relative;
+}
+#shopping-body {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(transparent, #ddd);
+  width: 100%;
+}
+.gradient1 {
+  background: linear-gradient(#6fc3f7, #1813a2);
+}
+.gradient2 {
+  background: linear-gradient(#38ef7d, #11998e);
+}
+.gradient3 {
+  background: linear-gradient(#fd2da2, #ff1722);
+}
+.gradient4 {
+  background: linear-gradient(#ebff5f, #6abd0d);
+}
+
+@media screen and (max-width: 576px) {
+  .parking-input {
+    margin-bottom: 10px;
+  }
+}
+
+.parentContainer {
+  height: 80vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+.childContainer {
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+.borderless {
+  border: none;
+}
+#transactionContainer {
+  height: 240px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* Footer */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.instagram:hover {
+  background-image: -webkit-linear-gradient(#fd2da2, #ff0000, #ffee02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.whatsapp:hover {
+  color: #198754;
+}
+.email:hover {
+  color: #ff1722;
+}
+.linkedin:hover {
+  color: #0800e6;
+}
+.github:hover {
+  color: #000;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #333;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient( #333, #000);
 }
