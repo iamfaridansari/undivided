@@ -1,18 +1,6 @@
 import React from "react";
-import { Route, Switch } from "react-router";
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
-
-import Expense from "../Expense/Expense";
-import ToDo from "../ToDo/ToDo";
-import Crypto from "../Crypto/Crypto";
-import Quiz from "../Quiz/Quiz";
-
-import Form from "../Form/Form";
-import Signup from "../Form/Signup";
-import Login from "../Form/Login";
-import Random from "../Random/Random";
-import Introduction from "../Introduction/Introduction";
 
 const NavBar = () => {
   return (

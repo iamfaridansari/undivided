@@ -16,14 +16,17 @@ function App() {
     <>
       <NavBar />
       <Switch>
-        <Route exact path="/expense" component={Expense} />
-        <Route exact path="/todo" component={ToDo} />
-        <Route exact path="/crypto" component={Crypto} />
-        <Route exact path="/quiz" component={Quiz} />
-
         <Route exact path="/" component={Form} />
         <Route exact path="/form/signup" component={Signup} />
         <Route exact path="/form/login" component={Login} />
+
+        <Route exact path="/expense" component={Expense} />
+
+        <Route exact path="/crypto" component={Crypto} />
+
+        <Route exact path="/todo" component={ToDo} />
+
+        <Route exact path="/quiz" component={Quiz} />
 
         <Route exact path="/random" component={Random} />
       </Switch>
