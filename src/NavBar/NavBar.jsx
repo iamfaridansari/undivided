@@ -18,7 +18,7 @@ const NavBar = () => {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-dark bg-danger"
+        className="navbar navbar-expand-lg navbar-dark bg-dark"
         id="myNavbar"
       >
         <div className="container-fluid">
