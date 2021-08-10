@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-md-6 col-sm-12">
             <p className="m-0">Copyright &#169; Farid Ansari</p>
           </div>
-          <div className="col-md-6 col-sm-12">
+          <div className="col-md-6 col-sm-12 social-icons">
             <a href="https://www.instagram.com/iamfaridansari/" className="me-3 fs-5 instagram">
               <i className="fab fa-instagram"></i>
             </a>

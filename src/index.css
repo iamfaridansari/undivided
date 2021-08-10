@@ -37,6 +37,10 @@ td button {
 .fluid {
   min-height: 85vh;
 }
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
 .brand {
   text-decoration: none;
   color: #fff;
