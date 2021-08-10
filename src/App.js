@@ -9,13 +9,12 @@ import Random from './Random/Random';
 import ToDo from './ToDo/ToDo';
 import Crypto from './Crypto/Crypto';
 
-import {Route, Switch} from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 
 function App() {
   return (
     <>
-      <NavBar/>
-      <Footer />
+      <NavBar />
       <Switch>
         <Route exact path="/expense" component={Expense} />
         <Route exact path="/todo" component={ToDo} />
@@ -28,6 +27,7 @@ function App() {
 
         <Route exact path="/random" component={Random} />
       </Switch>
+      <Footer />
     </>
   );
 }
