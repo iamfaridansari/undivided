@@ -16,7 +16,7 @@ function App() {
     <>
       <NavBar />
       <Switch>
-        <Route exact path="/" component={Form} />
+        <Route exact path="/undivided/" component={Form} />
         <Route exact path="/form/signup" component={Signup} />
         <Route exact path="/form/login" component={Login} />
 
